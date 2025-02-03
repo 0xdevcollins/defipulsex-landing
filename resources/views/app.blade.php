@@ -165,61 +165,60 @@
 
     <header class="header-section-33">
         <div id="header-sticky" class="header-1 header-3">
-<div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-    {
-    "symbols": [
-      {
-        "proName": "BITSTAMP:BTCUSD",
-        "title": "Bitcoin"
-      },
-      {
-        "proName": "BITSTAMP:ETHUSD",
-        "title": "Ethereum"
-      },
-      {
-        "description": "",
-        "proName": "BINANCE:BTCUSDT"
-      },
-      {
-        "description": "",
-        "proName": "BINANCE:XRPUSDT"
-      },
-      {
-        "description": "",
-        "proName": "COINBASE:SOLUSD"
-      },
-      {
-        "description": "",
-        "proName": "BINANCE:SUIUSDT"
-      },
-      {
-        "description": "",
-        "proName": "KCEX:TRUMPUSDT"
-      },
-      {
-        "description": "",
-        "proName": "BINANCE:AVAXUSDT"
-      },
-      {
-        "description": "",
-        "proName": "BINANCE:XLMUSDT"
-      },
-      {
-        "description": "",
-        "proName": "BINANCE:CAKEUSDT"
-      }
-    ],
-    "showSymbolLogo": true,
-    "isTransparent": false,
-    "displayMode": "adaptive",
-    "colorTheme": "dark",
-    "locale": "en"
-  }
-    </script>
-  </div>
-  <!-- TradingView Widget END -->
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                    {
+                        "symbols": [{
+                                "proName": "BITSTAMP:BTCUSD",
+                                "title": "Bitcoin"
+                            },
+                            {
+                                "proName": "BITSTAMP:ETHUSD",
+                                "title": "Ethereum"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BINANCE:BTCUSDT"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BINANCE:XRPUSDT"
+                            },
+                            {
+                                "description": "",
+                                "proName": "COINBASE:SOLUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BINANCE:SUIUSDT"
+                            },
+                            {
+                                "description": "",
+                                "proName": "KCEX:TRUMPUSDT"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BINANCE:AVAXUSDT"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BINANCE:XLMUSDT"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BINANCE:CAKEUSDT"
+                            }
+                        ],
+                        "showSymbolLogo": true,
+                        "isTransparent": false,
+                        "displayMode": "adaptive",
+                        "colorTheme": "dark",
+                        "locale": "en"
+                    }
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
             <div class="container-fluid">
                 <div class="mega-menu-wrapper">
                     <div class="header-main">
@@ -238,7 +237,28 @@
                                             <li>
                                                 <a href="{{ route('home') }}">Home</a>
                                             </li>
-                                            <li class="has-dropdown active menu-thumb">
+                                            <li>
+                                                <a href="{{ route('home') }}">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('home') }}">Plan</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('home') }}">Blog</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('home') }}">Team</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('home') }}">FAQ</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('home') }}">Trading History</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('home') }}">Contact Us</a>
+                                            </li>
+                                            {{-- <li class="has-dropdown active menu-thumb">
                                                 <a href="#">
                                                     Home
                                                     <i class="fas fa-angle-down"></i>
@@ -384,7 +404,7 @@
                                             </li>
                                             <li>
                                                 <a href="contact.html">Contact Us</a>
-                                            </li>
+                                            </li> --}}
                                         </ul>
                                     </nav>
                                 </div>
@@ -435,7 +455,6 @@
             <div class="shape3"><img src="assets/images/shape/footerShape1_3.png" alt="Decorative Shape"></div>
             <div class="container">
                 <div class="row">
-                    <!-- About Section -->
                     <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                         <div class="single-footer-widget">
                             <div class="widget-head">
