@@ -7,7 +7,8 @@
             <div class="row g-4 align-items-center">
                 <div class="col-lg-6">
                     <div class="about-image">
-                        <img src="assets/images/about/01.png" alt="Trading Platform Overview">
+                        <img src="assets/images/hero/01.png" alt="Trading Platform Overview">
+                        {{-- <img src="assets/images/about/01.png" alt="Trading Platform Overview"> --}}
                     </div>
                 </div>
                 <div class="col-lg-6">
