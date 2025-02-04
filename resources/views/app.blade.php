@@ -247,16 +247,16 @@
                                                 <a href="{{ route('home') }}">Blog</a>
                                             </li>
                                             <li>
-                                                <a href="{{ route('home') }}">Team</a>
+                                                <a href="{{ route('team') }}">Team</a>
                                             </li>
                                             <li>
-                                                <a href="{{ route('home') }}">FAQ</a>
+                                                <a href="{{ route('faq') }}">FAQ</a>
                                             </li>
                                             <li>
                                                 <a href="{{ route('home') }}">Trading History</a>
                                             </li>
                                             <li>
-                                                <a href="{{ route('home') }}">Contact Us</a>
+                                                <a href="{{ route('contact') }}">Contact Us</a>
                                             </li>
                                             {{-- <li class="has-dropdown active menu-thumb">
                                                 <a href="#">
@@ -414,7 +414,7 @@
                             <a href="#0" class="search-trigger search-icon"><i class="fal fa-search"></i></a>
 
                             <div class="header-button ms-4">
-                                <a href="contact.html" class="theme-btn">
+                                <a href="{{ route('home') }}" class="theme-btn">
                                     <span>
                                         Get Started
                                         <i class="fa-solid fa-arrow-right-long"></i>
@@ -458,7 +458,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                         <div class="single-footer-widget">
                             <div class="widget-head">
-                                <a href="index.html">
+                                <a href="{{route('home')}}">
                                     <img src="assets/images/logo/logo.svg" alt="DeFiPulseX Logo">
                                 </a>
                             </div>
@@ -504,10 +504,8 @@
                             <ul class="list-area">
                                 <li><a href="{{ route('home') }}">Home</a></li>
                                 <li><a href="{{ route('about') }}">About Us</a></li>
-                                <li><a href="project1.html">Integrations</a></li>
-                                <li><a href="services.html">Features</a></li>
                                 <li><a href="{{ route('pricing') }}">Pricing</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="{{ route('contact') }}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -519,12 +517,9 @@
                                 <h3>Resources</h3>
                             </div>
                             <ul class="list-area">
-                                <li><a href="project1.html">Project</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="project-details.html">Project Details</a></li>
-                                <li><a href="team.html">Our Team</a></li>
+                                <li><a href="{{route('contact')}}">Contact</a></li>
+                                <li><a href="{{route('pricing')}}">Pricing</a></li>
+                                <li><a href="{{route('team')}}">Our Team</a></li>
                             </ul>
                         </div>
                     </div>
