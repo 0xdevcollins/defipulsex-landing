@@ -238,7 +238,7 @@
                                                 <a href="{{ route('home') }}">Home</a>
                                             </li>
                                             <li>
-                                                <a href="{{ route('home') }}">About Us</a>
+                                                <a href="{{ route('about') }}">About Us</a>
                                             </li>
                                             <li>
                                                 <a href="{{ route('home') }}">Plan</a>
@@ -502,8 +502,8 @@
                                 <h3>Quick Links</h3>
                             </div>
                             <ul class="list-area">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="{{ route('home') }}">Home</a></li>
+                                <li><a href="{{ route('about') }}">About Us</a></li>
                                 <li><a href="project1.html">Integrations</a></li>
                                 <li><a href="services.html">Features</a></li>
                                 <li><a href="pricing.html">Pricing</a></li>
