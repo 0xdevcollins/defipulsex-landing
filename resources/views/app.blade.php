@@ -241,7 +241,7 @@
                                                 <a href="{{ route('about') }}">About Us</a>
                                             </li>
                                             <li>
-                                                <a href="{{ route('home') }}">Plan</a>
+                                                <a href="{{ route('pricing') }}">Plan</a>
                                             </li>
                                             <li>
                                                 <a href="{{ route('home') }}">Blog</a>
@@ -506,7 +506,7 @@
                                 <li><a href="{{ route('about') }}">About Us</a></li>
                                 <li><a href="project1.html">Integrations</a></li>
                                 <li><a href="services.html">Features</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="{{ route('pricing') }}">Pricing</a></li>
                                 <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
