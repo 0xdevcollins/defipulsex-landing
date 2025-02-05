@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <div class="thumb">
-                            <img src="assets/images/testimoial/01.jpg" alt="John Doe">
+                            <img src="assets/images/testimoial/02.png" alt="John Doe">
                         </div>
                     </div>
                 </div>
@@ -45,13 +45,13 @@
                     <div class="testimonial-wrapper-3">
                         <div class="tesimonial-content">
                             <p>
-                                "I’ve tried several platforms, but DeFiPulseX stands out with its user-friendly
+                                "I've tried several platforms, but DeFiPulseX stands out with its user-friendly
                                 interface and powerful tools. The support team is always quick to help, making it a joy
                                 to use."
                             </p>
                             <div class="client-info-area">
                                 <div class="client-content">
-                                    <h3>Jane Smith</h3>
+                                    <h3>Mariane Osinski</h3>
                                     <span>Blockchain Enthusiast</span>
                                 </div>
                                 <div class="testi-logo">
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                         <div class="thumb">
-                            <img src="assets/images/testimoial/02.jpg" alt="Jane Smith">
+                            <img src="assets/images/testimoial/03.png" alt="Mariane Osinski">
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                             </div>
                         </div>
                         <div class="thumb">
-                            <img src="assets/images/testimoial/03.jpg" alt="Michael Brown">
+                            <img src="assets/images/testimoial/04.png" alt="Michael Brown">
                         </div>
                     </div>
                 </div>

@@ -15,7 +15,7 @@ Route::get('/', function () {
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/pricing', [PricingController::class, 'index'])->name('pricing');
-Route::get('/team', [TeamController::class, 'index'])->name('team');
+// Route::get('/team', [TeamController::class, 'index'])->name('team');
 Route::get('/faq', [FAQController::class, 'index'])->name('faq');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
-Route::get('/team-details', [TeamController::class, 'detail'])->name('team');
+// Route::get('/team-details', [TeamController::class, 'detail'])->name('team');

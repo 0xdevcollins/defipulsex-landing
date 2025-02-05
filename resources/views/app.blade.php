@@ -116,7 +116,7 @@
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                    <a target="_blank" href="#">462W center Street, Rockfall Florida</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -124,8 +124,8 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@example.com"><span
-                                            class="mailto:info@example.com">info@example.com</span></a>
+                                    <a href="mailto:info@defipulsex.org"><span
+                                            class="mailto:info@defipulsex.org">info@defipulsex.org</span></a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -151,10 +151,10 @@
                             </a>
                         </div>
                         <div class="social-icon d-flex align-items-center">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            {{-- <a href="#"><i class="fab fa-facebook-f"></i></a> --}}
+                            <a href="https://t.me/dpulx"><i class="fab fa-telegram"></i></a>
+                            <a href="https://www.youtube.com/@Defipulsex"><i class="fab fa-youtube"></i></a>
+                            <a href="https://discord.gg/rcEmNXuT"><i class="fab fa-discord"></i></a>
                         </div>
                     </div>
                 </div>
@@ -243,12 +243,12 @@
                                             <li>
                                                 <a href="{{ route('pricing') }}">Plan</a>
                                             </li>
-                                            <li>
+                                            {{-- <li>
                                                 <a href="{{ route('home') }}">Blog</a>
-                                            </li>
-                                            <li>
+                                            </li> --}}
+                                            {{-- <li>
                                                 <a href="{{ route('team') }}">Team</a>
-                                            </li>
+                                            </li> --}}
                                             <li>
                                                 <a href="{{ route('faq') }}">FAQ</a>
                                             </li>
@@ -519,7 +519,7 @@
                             <ul class="list-area">
                                 <li><a href="{{route('contact')}}">Contact</a></li>
                                 <li><a href="{{route('pricing')}}">Pricing</a></li>
-                                <li><a href="{{route('team')}}">Our Team</a></li>
+                                {{-- <li><a href="{{route('team')}}">Our Team</a></li> --}}
                             </ul>
                         </div>
                     </div>

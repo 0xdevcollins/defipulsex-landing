@@ -108,8 +108,7 @@
                             <h2 class="contact-title">
                                 Ready to Get Started?
                             </h2>
-                            <p class="desc">Nullam varius, erat quis iaculis dictum, eros urna varius eros, ut blandit
-                                felis odio in turpis. Quisque rhoncus,</p>
+                            <p class="desc">Have any question? Shoot us an email.</p>
 
                             <form action="contact.php" id="contact-form" method="POST" class="contact-form-items">
                                 <div class="row g-4">

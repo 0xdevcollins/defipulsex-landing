@@ -38,7 +38,7 @@
                                 <div class="checklist">
                                     <ul class="d-flex align-items-center gap-3">
                                         <li><i class="fa-solid fa-paper-plane"></i></li>
-                                        <li>info@example.com</li>
+                                        <li>info@defipulsex.org</li>
                                     </ul>
                                 </div>
                                 <div class="checklist">
@@ -92,7 +92,7 @@
                                 <div class="checklist">
                                     <ul class="d-flex align-items-center gap-3">
                                         <li><i class="fa-solid fa-paper-plane"></i></li>
-                                        <li>info@example.com</li>
+                                        <li>info@defipulsex.org</li>
                                     </ul>
                                 </div>
                                 <div class="checklist">
@@ -146,7 +146,7 @@
                                 <div class="checklist">
                                     <ul class="d-flex align-items-center gap-3">
                                         <li><i class="fa-solid fa-paper-plane"></i></li>
-                                        <li>info@example.com</li>
+                                        <li>info@defipulsex.org</li>
                                     </ul>
                                 </div>
                                 <div class="checklist">
