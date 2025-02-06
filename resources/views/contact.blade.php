@@ -20,7 +20,7 @@
                                     </svg>
                                 </div>
                                 <div class="title">Our Address</div>
-                                <a class="text" href="#">2464 Royal Ln. Mesa, New Jersey 45463.</a>
+                                <a class="text" href="#">462W center Street, Rockfall Florida</a>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                                     </svg>
                                 </div>
                                 <h3 class="title">
-                                    <a href="mailto:info@exmple.com"> info@exmple.com </a>
+                                    <a href="mailto:info@defipulsex.org"> info@defipulsex.org </a>
                                 </h3>
 
                                 <p class="text">Email us anytime for anykind ofquety.</p>

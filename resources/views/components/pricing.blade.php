@@ -1,166 +1,161 @@
-<section class="pricing-section-3 section-padding fix" style="background-image: url('assets/images/pricing-bg.jpg');">
-    <div class="container">
-        <div class="section-title text-center mxw-685 mx-auto">
-            <div class="subtitle wow fadeInUp">
-                Our Pricing <img src="assets/images/icon/fireIcon.svg" alt="Fire Icon">
-            </div>
-            <h2 class="title wow fadeInUp" data-wow-delay=".3s">Choose the Plan That Fits Your Goals</h2>
-            <p class="text wow fadeInUp" data-wow-delay=".5s">
-                Whether you're a beginner or a seasoned trader, DeFiPulseX offers flexible pricing plans to help you achieve your financial goals.
-            </p>
-        </div>
-        <div class="pricing-wrapper style1">
-            <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade active show" id="pills-monthly" role="tabpanel" aria-labelledby="pills-monthly-tab">
-                    <div class="row gy-5">
-                        <!-- Basic Plan -->
-                        <div class="col-xl-4 col-md-6">
-                            <div class="pricing-card style1">
-                                <div class="pricing-card-header">
-                                    <h6>Basic Plan</h6>
-                                    <div class="price-wrapper">
-                                        <span class="price">$200 - $5000</span>
-                                    </div>
-                                    <p class="text">
-                                        Perfect for beginners looking to explore automated trading and staking.
-                                    </p>
-                                </div>
-                                <div class="pricing-card-body">
-                                    <ul class="checklist">
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#1AD079"/>
-                                            </svg>
-                                            7 days free trial
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#1AD079"/>
-                                            </svg>
-                                            Access to 1 trading bot
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#1AD079"/>
-                                            </svg>
-                                            Basic staking options
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#858585"/>
-                                            </svg>
-                                            Limited customer support
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#858585"/>
-                                            </svg>
-                                            No advanced analytics
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a class="theme-btn style5" href="pricing.html">Get Started</a>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6">
-                            <div class="pricing-card style1">
-                                <div class="pricing-card-header">
-                                    <h6>Basic Plan</h6>
-                                    <div class="price-wrapper">
-                                        <span class="price">$200 - $5000</span>
-                                    </div>
-                                    <p class="text">
-                                        Perfect for beginners looking to explore automated trading and staking.
-                                    </p>
-                                </div>
-                                <div class="pricing-card-body">
-                                    <ul class="checklist">
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#1AD079"/>
-                                            </svg>
-                                            7 days free trial
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#1AD079"/>
-                                            </svg>
-                                            Access to 1 trading bot
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#1AD079"/>
-                                            </svg>
-                                            Basic staking options
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#858585"/>
-                                            </svg>
-                                            Limited customer support
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#858585"/>
-                                            </svg>
-                                            No advanced analytics
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a class="theme-btn style5" href="pricing.html">Get Started</a>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6">
-                            <div class="pricing-card style1">
-                                <div class="pricing-card-header">
-                                    <h6>Basic Plan</h6>
-                                    <div class="price-wrapper">
-                                        <span class="price">$200 - $5000</span>
-                                    </div>
-                                    <p class="text">
-                                        Perfect for beginners looking to explore automated trading and staking.
-                                    </p>
-                                </div>
-                                <div class="pricing-card-body">
-                                    <ul class="checklist">
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#1AD079"/>
-                                            </svg>
-                                            7 days free trial
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#1AD079"/>
-                                            </svg>
-                                            Access to 1 trading bot
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#1AD079"/>
-                                            </svg>
-                                            Basic staking options
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#858585"/>
-                                            </svg>
-                                            Limited customer support
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                <path opacity="0.992" fill-rule="evenodd" clip-rule="evenodd" d="M7.22393 0C10.1444 0.0048682 12.3871 1.22628 13.952 3.66423C15.1321 5.76513 15.3168 7.95136 14.5062 10.2229C13.3721 12.8859 11.3758 14.4614 8.51719 14.9495C5.62984 15.2424 3.28454 14.2622 1.48125 12.0088C-0.0776275 9.77987 -0.406074 7.37811 0.495906 4.80353C1.26674 2.9139 2.5754 1.53341 4.42187 0.662026C5.31983 0.270692 6.25384 0.0500183 7.22393 0ZM11.2269 4.43403C11.6225 4.43526 11.7508 4.62002 11.6118 4.98829C9.90797 6.93843 8.20413 8.8886 6.50032 10.8387C6.34295 10.9814 6.17359 10.9968 5.99226 10.8849C5.24811 9.89445 4.50399 8.904 3.75985 7.91352C3.63052 7.68883 3.67671 7.50922 3.89841 7.37466C3.99079 7.35412 4.08316 7.35412 4.17554 7.37466C4.74004 7.75441 5.30458 8.1342 5.86909 8.51396C6.02234 8.62678 6.18659 8.64729 6.36176 8.57554C7.97994 7.1872 9.60165 5.80667 11.2269 4.43403Z" fill="#858585"/>
-                                            </svg>
-                                            No advanced analytics
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a class="theme-btn style5" href="pricing.html">Get Started</a>
-                            </div>
-                        </div>
+<style>
+    .pricing-section {
+        /* background: linear-gradient(180deg, #1a237e 0%, #0d47a1 100%); */
+        padding: 80px 0;
+        color: white;
+        font-family: system-ui, -apple-system, sans-serif;
+    }
 
-                    </div>
-                </div>
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .section-header {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .section-header h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    .pricing-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .pricing-card {
+        background: black;
+        border-radius: 20px;
+        padding: 30px;
+        text-align: center;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255,255,255,0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .pricing-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .bot-image {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 20px;
+    }
+
+    .plan-name {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .price-range {
+        font-size: 1.25rem;
+        color: #e78c45;
+        margin-bottom: 10px;
+    }
+
+    .daily-rate {
+        font-size: 1.1rem;
+        color: #e1b492;
+        margin-bottom: 20px;
+    }
+
+    .features {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .features li {
+        margin-bottom: 10px;
+        color: #e0e0e0;
+    }
+
+    .get-started-btn {
+        background: linear-gradient(90deg, #e78c45 0%, #864f25 100%);
+        color: #fff;
+        padding: 12px 30px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        transition: transform 0.3s ease;
+    }
+
+    .get-started-btn:hover {
+        transform: scale(1.05);
+    }
+    </style>
+    <section class="pricing-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Choose Your Trading Bot</h2>
+            <p>Select the perfect plan for your trading journey</p>
+        </div>
+
+        <div class="pricing-grid">
+            <!-- MINI Plan -->
+            <div class="pricing-card">
+                <img src="/assets/images/mini.png" alt="Mini Bot" class="bot-image">
+                <h3 class="plan-name">MINI</h3>
+                <div class="price-range">$100-$399</div>
+                <div class="daily-rate">Up to 1.0% DAILY</div>
+                <ul class="features">
+                    <li>Yield Days: 7 Days</li>
+                    <li>Deposit Stake: 14 Days</li>
+                    <li>Basic Trading Features</li>
+                </ul>
+                <a href="#" class="get-started-btn">Get Started</a>
+            </div>
+
+            <!-- PRO Plan -->
+            <div class="pricing-card">
+                <img src="/assets/images/pro.png" alt="Pro Bot" class="bot-image">
+                <h3 class="plan-name">PRO</h3>
+                <div class="price-range">$400-$1,999</div>
+                <div class="daily-rate">Up to 1.5% DAILY</div>
+                <ul class="features">
+                    <li>Withdrawal: Every 72 hours</li>
+                    <li>2% Withdrawal Fee</li>
+                    <li>Advanced Trading Tools</li>
+                </ul>
+                <a href="#" class="get-started-btn">Get Started</a>
+            </div>
+
+            <!-- PREMIUM Plan -->
+            <div class="pricing-card">
+                <img src="/assets/images/premium.png" alt="Premium Bot" class="bot-image">
+                <h3 class="plan-name">PREMIUM</h3>
+                <div class="price-range">$2,000-$7,999</div>
+                <div class="daily-rate">Up to 2% DAILY</div>
+                <ul class="features">
+                    <li>Min of $50 Withdrawal</li>
+                    <li>Withdrawals: Within 24 hours</li>
+                    <li>Premium Trading Features</li>
+                </ul>
+                <a href="#" class="get-started-btn">Get Started</a>
+            </div>
+
+            <!-- SUPREME Plan -->
+            <div class="pricing-card">
+                <img src="/assets/images/supreme.png" alt="Supreme Bot" class="bot-image">
+                <h3 class="plan-name">SUPREME</h3>
+                <div class="price-range">$8,000-Unlimited</div>
+                <div class="daily-rate">Up to 2.5% DAILY</div>
+                <ul class="features">
+                    <li>Only one Bot Needed</li>
+                    <li>Top-Up with any amount</li>
+                    <li>Supreme Trading Features</li>
+                </ul>
+                <a href="#" class="get-started-btn">Get Started</a>
             </div>
         </div>
     </div>
