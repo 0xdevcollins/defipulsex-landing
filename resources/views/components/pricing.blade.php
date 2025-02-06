@@ -80,7 +80,7 @@
     }
 
     .get-started-btn {
-        background: linear-gradient(90deg, #e78c45 0%, #864f25 100%);
+        background: #e78c45;
         color: #fff;
         padding: 12px 30px;
         border-radius: 25px;
