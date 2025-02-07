@@ -52,7 +52,7 @@
                                 <b>Scalable Solutions:</b> <span>Grow with us—our platform adapts to your trading needs.</span>
                             </li>
                         </ul>
-                        <a class="theme-btn style2 wow fadeInUp" data-wow-delay=".4s" href="about.html">
+                        <a class="theme-btn style2 wow fadeInUp" data-wow-delay=".4s" href="{{route('about')}}">
                             Learn More <i class="fa-regular fa-arrow-right-long"></i>
                         </a>
                     </div>

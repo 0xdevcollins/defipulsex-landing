@@ -2,7 +2,7 @@
     .pricing-section {
         /* background: linear-gradient(180deg, #1a237e 0%, #0d47a1 100%); */
         padding: 80px 0;
-        color: white;
+        color: black;
         font-family: system-ui, -apple-system, sans-serif;
     }
 
@@ -20,7 +20,7 @@
     .section-header h2 {
         font-size: 2.5rem;
         margin-bottom: 20px;
-        color: white;
+        color: #e78c45;
     }
 
     .pricing-grid {

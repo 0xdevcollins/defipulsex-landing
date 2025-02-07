@@ -24,7 +24,7 @@
                                 </defs>
                             </svg>
                         </a>
-                        <a class="theme-btn style2 wow fadeInUp" data-wow-delay=".2s" href="about.html">
+                        <a class="theme-btn style2 wow fadeInUp" data-wow-delay=".2s" href="{{ route('about') }}">
                             Learn More  <i class="fa fa-book"></i>
                         </a>
                     </div>

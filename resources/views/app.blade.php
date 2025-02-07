@@ -487,7 +487,7 @@
                                         </a>
                                     </div>
                                     <div class="play">
-                                        <a href="#">Learn more <i class="fa fa-book"></i>
+                                        <a href="{{route('about')}}">Learn more <i class="fa fa-book"></i>
                                         </a>
                                     </div>
                                 </div>
