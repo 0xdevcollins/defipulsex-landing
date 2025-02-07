@@ -54,11 +54,11 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <h3 class="title">
+                                <h3 class="title" style="text-transform: lowercase">
                                     <a href="mailto:info@defipulsex.org"> info@defipulsex.org </a>
                                 </h3>
 
-                                <p class="text">Email us anytime for anykind ofquety.</p>
+                                <p class="text">Email us anytime for any kind of question.</p>
 
                             </div>
                         </div>
@@ -81,7 +81,7 @@
                                     <a href="tel:34534534543"> Hot: +208-666-0112 </a>
                                 </h3>
 
-                                <p class="text">Call us any kind suppor,we will wait for it</p>
+                                <p class="text">Message us for support, we will wait for it</p>
                             </div>
                         </div>
                     </div>
