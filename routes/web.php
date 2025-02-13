@@ -19,3 +19,4 @@ Route::get('/pricing', [PricingController::class, 'index'])->name('pricing');
 Route::get('/faq', [FAQController::class, 'index'])->name('faq');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 // Route::get('/team-details', [TeamController::class, 'detail'])->name('team');
+Route::post('/contact-submit', [ContactController::class, 'submit'])->name('contact.submit');

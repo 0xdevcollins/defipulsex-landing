@@ -109,34 +109,44 @@
                                 Ready to Get Started?
                             </h2>
                             <p class="desc">Have any question? Shoot us an email.</p>
+                            @if (session('success'))
+                                <div class="alert alert-success">
+                                    {{ session('success') }}
+                                </div>
+                            @endif
 
-                            <form action="contact.php" id="contact-form" method="POST" class="contact-form-items">
+                            <form action="{{ route('contact.submit') }}" id="contact-form" method="POST"
+                                class="contact-form-items">
+                                @csrf
                                 <div class="row g-4">
-                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="col-lg-6">
                                         <div class="form-clt">
-                                            <span>Your name*</span>
-                                            <input type="text" name="name" id="name" placeholder="Your Name">
+                                            <span>Your Name*</span>
+                                            <input type="text" name="name" id="name" placeholder="Your Name"
+                                                required>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="col-lg-6">
                                         <div class="form-clt">
                                             <span>Your Email*</span>
-                                            <input type="text" name="email2" id="email2" placeholder="Your Email">
+                                            <input type="email" name="email" id="email" placeholder="Your Email"
+                                                required>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
+                                    <div class="col-lg-12">
                                         <div class="form-clt">
                                             <span>Write Message*</span>
-                                            <textarea name="message" id="message" placeholder="Write Message"></textarea>
+                                            <textarea name="message" id="message" placeholder="Write Message" required></textarea>
                                         </div>
                                     </div>
-                                    <div class="col-lg-7 wow fadeInUp" data-wow-delay=".9s">
+                                    <div class="col-lg-7">
                                         <button type="submit" class="theme-btn">
                                             Send Message <i class="fa-solid fa-arrow-right-long ms-1"></i>
                                         </button>
                                     </div>
                                 </div>
                             </form>
+
                         </div>
                     </div>
                 </div>
