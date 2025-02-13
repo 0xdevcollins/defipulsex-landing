@@ -102,61 +102,28 @@
         </div>
 
         <div class="pricing-grid">
-            <!-- MINI Plan -->
-            <div class="pricing-card">
-                <img src="/assets/images/mini.png" alt="Mini Bot" class="bot-image">
-                <h3 class="plan-name">MINI</h3>
-                <div class="price-range">$100-$399</div>
-                <div class="daily-rate">Up to 1.0% DAILY</div>
-                <ul class="features">
-                    <li>Yield Days: 7 Days</li>
-                    <li>Deposit Stake: 14 Days</li>
-                    <li>Basic Trading Features</li>
-                </ul>
-                <a href="#" class="get-started-btn">Get Started</a>
-            </div>
+            @foreach ($plans as $plan)
+                @php
+                    // Assuming the data contains image and other info
+                    $data = json_decode($plan['description'], true);  // Adjust based on your actual API response structure
+                @endphp
+                <div class="pricing-card">
+                    <!-- Display the image if it exists -->
+                    <img src="{{ $data['image'] ?? '' }}" alt="Mini Bot" class="bot-image">
+                    <h3 class="plan-name uppercase">{{ $plan['name'] }}</h3>
+                    <div class="price-range">${{ $plan['min_amount'] }}-${{ $plan['max_amount'] }}</div>
+                    <div class="daily-rate">Up to {{ $plan['percent_return'] }}% DAILY</div>
+                    <ul class="features">
+                        <li>Yield Days: {{ $plan['duration'] }} Days</li>
 
-            <!-- PRO Plan -->
-            <div class="pricing-card">
-                <img src="/assets/images/pro.png" alt="Pro Bot" class="bot-image">
-                <h3 class="plan-name">PRO</h3>
-                <div class="price-range">$400-$1,999</div>
-                <div class="daily-rate">Up to 1.5% DAILY</div>
-                <ul class="features">
-                    <li>Withdrawal: Every 72 hours</li>
-                    <li>2% Withdrawal Fee</li>
-                    <li>Advanced Trading Tools</li>
-                </ul>
-                <a href="#" class="get-started-btn">Get Started</a>
-            </div>
-
-            <!-- PREMIUM Plan -->
-            <div class="pricing-card">
-                <img src="/assets/images/premium.png" alt="Premium Bot" class="bot-image">
-                <h3 class="plan-name">PREMIUM</h3>
-                <div class="price-range">$2,000-$7,999</div>
-                <div class="daily-rate">Up to 2% DAILY</div>
-                <ul class="features">
-                    <li>Min of $50 Withdrawal</li>
-                    <li>Withdrawals: Within 24 hours</li>
-                    <li>Premium Trading Features</li>
-                </ul>
-                <a href="#" class="get-started-btn">Get Started</a>
-            </div>
-
-            <!-- SUPREME Plan -->
-            <div class="pricing-card">
-                <img src="/assets/images/supreme.png" alt="Supreme Bot" class="bot-image">
-                <h3 class="plan-name">SUPREME</h3>
-                <div class="price-range">$8,000-Unlimited</div>
-                <div class="daily-rate">Up to 2.5% DAILY</div>
-                <ul class="features">
-                    <li>Only one Bot Needed</li>
-                    <li>Top-Up with any amount</li>
-                    <li>Supreme Trading Features</li>
-                </ul>
-                <a href="#" class="get-started-btn">Get Started</a>
-            </div>
+                        @foreach ($data['data'] as $feature)
+                            <li>{{ $feature }}</li>
+                        @endforeach
+                    </ul>
+                    <a href="{{ dashboard_url('/trades/buy') }}" data-tw-toggle="modal" data-tw-target="#overlapping-modal-preview-{{ dashboard_url('/trades/buy') }}" class="get-started-btn">Get Started</a>
+                </div>
+            @endforeach
         </div>
+
     </div>
 </section>

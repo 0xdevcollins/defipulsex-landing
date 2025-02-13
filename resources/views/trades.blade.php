@@ -37,7 +37,7 @@
     }
 
     .page-item.active .page-link {
-        background-color: #ff6b00; /* Orange background for active page */
+        background-color: #ff6b00;
         border-color: #ff6b00;
         color: white;
     }
@@ -49,7 +49,7 @@
     }
 
     .page-link:hover {
-        background-color: #ff8533; /* Lighter orange on hover */
+        background-color: #ff8533;
         border-color: #ff8533;
         color: white;
     }
