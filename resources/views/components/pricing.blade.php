@@ -36,7 +36,7 @@
         padding: 30px;
         text-align: center;
         backdrop-filter: blur(10px);
-        border: 1px solid rgba(255,255,255,0.1);
+        border: 1px solid rgba(255, 255, 255, 0.1);
         transition: transform 0.3s ease;
     }
 
@@ -93,8 +93,8 @@
     .get-started-btn:hover {
         transform: scale(1.05);
     }
-    </style>
-    <section class="pricing-section">
+</style>
+<section class="pricing-section">
     <div class="container">
         <div class="section-header">
             <h2>Choose Your Trading Bot</h2>
@@ -105,13 +105,15 @@
             @foreach ($plans as $plan)
                 @php
                     // Assuming the data contains image and other info
-                    $data = json_decode($plan['description'], true);  // Adjust based on your actual API response structure
+                    $data = json_decode($plan['description'], true); // Adjust based on your actual API response structure
                 @endphp
                 <div class="pricing-card">
                     <!-- Display the image if it exists -->
                     <img src="{{ $data['image'] ?? '' }}" alt="Mini Bot" class="bot-image">
                     <h3 class="plan-name uppercase">{{ $plan['name'] }}</h3>
-                    <div class="price-range">${{ $plan['min_amount'] }}-${{ $plan['max_amount'] }}</div>
+                    <div class="price-range">
+                        ${{ $plan['min_amount'] }}-{{ $plan['max_amount'] >= 999999999 ? 'Unlimited' : $plan['max_amount'] }}
+                    </div>
                     <div class="daily-rate">Up to {{ $plan['percent_return'] }}% DAILY</div>
                     <ul class="features">
                         <li>Yield Days: {{ $plan['duration'] }} Days</li>
@@ -120,7 +122,9 @@
                             <li>{{ $feature }}</li>
                         @endforeach
                     </ul>
-                    <a href="{{ dashboard_url('/trades/buy') }}" data-tw-toggle="modal" data-tw-target="#overlapping-modal-preview-{{ dashboard_url('/trades/buy') }}" class="get-started-btn">Get Started</a>
+                    <a href="{{ dashboard_url('/trades/buy') }}" data-tw-toggle="modal"
+                        data-tw-target="#overlapping-modal-preview-{{ dashboard_url('/trades/buy') }}"
+                        class="get-started-btn">Get Started</a>
                 </div>
             @endforeach
         </div>
