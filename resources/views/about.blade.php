@@ -62,7 +62,8 @@
                                         Real-time analytics and risk management tools.
                                     </li>
                                 </ul>
-                                <a class="theme-btn wow fadeInUp" data-wow-delay=".2s" href="about.html">
+                                <a class="theme-btn wow fadeInUp" data-wow-delay=".2s"
+                                    href="{{ dashboard_url('/trades/buy') }}">
                                     Discover More
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         viewBox="0 0 16 16" fill="none">
@@ -266,7 +267,8 @@
                                         to maximize your returns and minimize risks.
                                     </p>
                                 </div>
-                                <a class="theme-btn rounded-5 wow fadeInUp" data-wow-delay=".4s" href="about.html">
+                                <a class="theme-btn rounded-5 wow fadeInUp" data-wow-delay=".4s"
+                                    href="{{ dashboard_url('/trades/buy') }}">
                                     Explore Features
                                     <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         viewBox="0 0 16 16" fill="none">

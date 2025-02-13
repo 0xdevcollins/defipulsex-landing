@@ -11,7 +11,7 @@
                         Take control of your trading journey with DeFiPulseX. From advanced trading bots to seamless staking, we provide the tools you need to maximize your profits and minimize risks.
                     </p>
                     <div class="btn-wrapper style1 wow fadeInUp" data-wow-delay=".6s">
-                        <a class="theme-btn" href="contact.html">
+                        <a class="theme-btn" href="{{ dashboard_url('/register') }}">
                             Start Trading Now
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                                 <g clip-path="url(#clip0_11_22)">

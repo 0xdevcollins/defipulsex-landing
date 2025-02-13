@@ -429,7 +429,7 @@
                             <a href="#0" class="search-trigger search-icon"><i class="fal fa-search"></i></a>
 
                             <div class="header-button ms-4">
-                                <a href="{{ route('home') }}" class="theme-btn">
+                                <a href="{{ dashboard_url('/register') }}" class="theme-btn">
                                     <span>
                                         Get Started
                                         <i class="fa-solid fa-arrow-right-long"></i>
@@ -484,7 +484,7 @@
                                 </p>
                                 <div class="store-links">
                                     <div class="apple">
-                                        <a href="#">
+                                        <a href="{{ dashboard_url('/register') }}">
                                             Get Started
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                 viewBox="0 0 16 16" fill="none">
