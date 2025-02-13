@@ -6,6 +6,7 @@ use App\Http\Controllers\FAQController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PricingController;
 use App\Http\Controllers\TeamController;
+use App\Http\Controllers\TradeController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -20,3 +21,4 @@ Route::get('/faq', [FAQController::class, 'index'])->name('faq');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 // Route::get('/team-details', [TeamController::class, 'detail'])->name('team');
 Route::post('/contact-submit', [ContactController::class, 'submit'])->name('contact.submit');
+Route::get('/trading-history', [TradeController::class, 'index'])->name('trading.history');

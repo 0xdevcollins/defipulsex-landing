@@ -268,7 +268,7 @@
                                                 <a href="{{ route('faq') }}">FAQ</a>
                                             </li>
                                             <li>
-                                                <a href="{{ route('home') }}">Trading History</a>
+                                                <a href="{{ route('trading.history') }}">Trading History</a>
                                             </li>
                                             <li>
                                                 <a href="{{ route('contact') }}">Contact Us</a>
